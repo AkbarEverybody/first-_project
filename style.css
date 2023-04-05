@@ -1,0 +1,41 @@
+body {
+  background-color: #fff5d7;
+}
+.card {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 300px;
+  border: 1px solid black;
+  /* From https://css.glass */
+  background: rgba(221, 237, 237, 0.29);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  border: 1px solid rgba(221, 237, 237, 0.43);
+}
+.btn {
+  text-align: center;
+}
+button {
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  background-color: transparent;
+  margin: 10px;
+  padding: 14px 16px;
+  border: none;
+  border-radius: 25px;
+}
+button:hover {
+  background-color: #ff5e6c;
+  color: white;
+}
+
+span {
+  color: red;
+}
